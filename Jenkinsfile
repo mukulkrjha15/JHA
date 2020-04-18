@@ -6,7 +6,7 @@ pipeline {
 		tools {
 		 jdk 'JDK'
 		 }
-		 Stages {
+		 stages {
 		   stage('Prepare the flow') {
 		    steps {
 			echo 'Hi Prepare flow'
